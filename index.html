@@ -29,7 +29,11 @@
   <main>
     <div class="banner relative push">
       <div class="embed embed-3by2">
-        <img class="embed-item" src="images/banner.jpg" alt="">
+        <picture>
+          <source media="(min-width: 60em)" srcset="images/banner-large.jpg">
+          <source media="(min-width: 25em)" srcset="images/banner-small.jpg">
+          <img class="embed-item" src="images/banner.jpg" alt="">
+        </picture>
       </div>
       <div class="banner-content absolute pin-tl island max-length">
         <p class="yotta"><strong>Snail is a common name that is applied most often to land snails, terrestrial pulmonate gastropod molluscs.</strong></p>
