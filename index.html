@@ -60,7 +60,12 @@
     <div class="grid push">
       <div class="unit xs-1 m-1-2">
         <div class="embed embed-3by2">
-          <img class="embed-item" src="images/snail-2.jpg" alt="">
+          <picture>
+            <source media="(min-width: 60em)" srcset="images/snail-2-large.jpg">
+            <source media="(min-width: 38em)" srcset="images/snail-2-medium.jpg">
+            <source media="(min-width: 25em)" srcset="images/snail-2-small.jpg">
+            <img class="embed-item" src="images/snail-2.jpg" alt="">
+          </picture>
         </div>
       </div>
       <div class="unit xs-1 m-1-2">
